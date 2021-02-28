@@ -1,0 +1,22 @@
+basePath: /api
+host: localhost:8080
+info:
+  contact:
+    email: omar26begue@gmail.com
+    name: Omar Isalgue Begue
+  description: Prueba API
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: API Logs - GET
+  version: 1.0.0
+paths: {}
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+  BasicAuth:
+    type: basic
+swagger: "2.0"
